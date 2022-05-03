@@ -1,6 +1,14 @@
 function App() {
   return (
-    <h1>ola</h1>
+    <div className="container">
+      <div className="container-login">
+        <div className="wrap-login">
+          <form className="login-form">
+            <span className="login-form-title">Login</span>
+          </form>
+        </div>
+      </div>
+    </div>
   );
 }
 
